@@ -1,0 +1,137 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared css */
+.text-primary {
+    color: cornflowerblue;
+}
+
+.dark-2 {
+    color: darkslategrey;
+}
+
+.btn-primary {
+    background-color: darkslategray;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bg-2nd{
+    background-color: lightslategray;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 70px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px;
+}
+
+.banner-writings{
+    width: 500px;
+    
+}
+
+.banner-greetings{
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.banner-myname{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.banner-img{
+    width: 500px;
+}
+
+/* header css */
+.header {
+    background-image: url(../Images/developer.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 60px;
+    background-position: bottom left;
+}
+
+/* main cs */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.section-description{
+    font-size: 18px;
+    color: white;
+}
+
+/* about css */
+.about{
+    border-radius: 7px;
+    padding: 120px 150px;
+    text-align: center;
+    margin: 20px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.item-title{
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
